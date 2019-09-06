@@ -1,0 +1,24 @@
+title-text: "BlueOS GRUB"
+title-color: "#FFFFFF"
+desktop-image: "background.png"
+
++ boot_menu {
+        left = 20%
+        top = 25%
+        width = 60%
+        height = 70%
+  
+        selected_item_color = "#FFFFFF"
+	item_color = "#DDDDDD"
+}
+
++ circular_progress {
+        left = 40%
+        top = 75%
+        id = "__timeout__"
+        width = 20%
+        height = 20%
+        center_bitmap = "logo.png"
+        tick_bitmap = "tick.png"
+        num_ticks = 8
+}
