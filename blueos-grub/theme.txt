@@ -12,13 +12,17 @@ desktop-image: "background.png"
 	item_color = "#DDDDDD"
 }
 
-+ circular_progress {
-        left = 40%
-        top = 75%
++ progress_bar {
+        left = 50%-300
+        top = 50%+200
+        width = 600
+        height = 50
+      
         id = "__timeout__"
-        width = 20%
-        height = 20%
-        center_bitmap = "logo.png"
-        tick_bitmap = "tick.png"
-        num_ticks = 8
+        text = "@TIMEOUT_NOTIFICATION_LONG@"
+     
+        text_color = "white"
+      
+        bar_style = "*"
+        highlight_style = "*"
 }
