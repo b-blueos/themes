@@ -1,4 +1,3 @@
-//BASED ON LLAMA PLYMOUTH THEME
 //FEATURES (TOGGABLE):
 //Choose if the logo should spin:
 logo_spinning = false;
